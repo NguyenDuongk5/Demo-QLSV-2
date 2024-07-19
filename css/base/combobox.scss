@@ -1,0 +1,75 @@
+.combobox{    
+    .combobox-header{
+        height:40px;
+        width: 200px;
+        display: flex;
+        border: 1px solid #bbbbbb;
+        border-radius: 4px;
+        .text-combobox{
+            border:none;
+            height:100%;
+            width: calc(100% - 40px);
+            padding-left: 16px;
+        }
+        ::placeholder {
+            color: #bbbbbb;
+            font-size:11px;
+        }
+        .btn-combobox{
+            height:100%;
+            width:40px;
+            border: none;
+            margin:0px;
+            padding:0px;
+            background-image: url(../../image/base/icon-Chevron-down.svg);
+            border-left: 1px solid #bbbbbb;
+            background-repeat: no-repeat;
+            background-size: 13px;
+            background-position: center;
+            background-color: #ffff;
+        }
+        .btn-combobox:hover{
+            background-color: #e9ebee;
+        }
+    }
+    .combobox-header:hover{
+        border-color: #019160;
+    }
+    .combobox-body{
+        box-sizing: border-box;
+        height:130px;
+        width:200px;
+        background-color: #ffff;
+        padding: 5px 0px;
+        border-radius: 4px;
+        .combobox-label{
+            box-sizing: border-box;
+            height:40px;
+            width:100%;
+            padding-left: 36px;
+            display: flex;
+            align-items: center;
+        }     
+        .combobox-label:hover{
+            background-color: #e9ebeb;
+        }
+        .combobox-label:hover{
+            background-color: #019160;
+            color: #ffff;
+            padding:0px;
+            .icon-check{
+                height:40px;
+                width:36px;
+                box-sizing: border-box;
+                padding: 0 10px;
+                background-image: url(../../image/base/check-solid.svg);
+                background-size: 13px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+    }
+}
+
+
+

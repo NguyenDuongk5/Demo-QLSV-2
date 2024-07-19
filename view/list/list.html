@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Thu vien-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!--base css-->
+    <link rel="stylesheet" href="../../css/base/common.css" />
+
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <div class="toggle"></div>
+            <div class="logo-page"></div>
+        </div>
+        <div class="header-right">
+            <div class="select-title">
+                <select name="" id="">
+                    <option value="0">Nhà hàng Biển Đông</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div class="acc-name">
+                <div class="icon-avatar"></div>
+                <p class="name-main">NGUYỄN VŨ THÙY DƯƠNG</p>
+                <div class="icon-option"></div>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="the-menu">
+            <div class="dash-board">
+                <div class="icon-document-online"></div>
+                <div class="text">Hồ sơ điện tử</div>
+            </div>
+            <div class="dash-board">
+                <div class="icon-dashboard"></div>
+                <div class="text">Theo dõi đóng</div>
+            </div>
+            <div class="dash-board">
+                <div class="icon-dic-employee"></div>
+                <div class="text">Quản lý lao động</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="page-header">
+                <div class="page-title">Danh sách nhân viên</div>
+                <div class="btn-employee-add">
+                    <button class="btn-green-icon" id="btnGreenIcon">
+                    <i class="fa-solid fa-plus pr-8"></i>Thêm nhân viên
+                </div>
+            </div>
+            <div class="page-toolbar">
+                <div class="toolbar-left">
+                    <input class="input-icon input-icon-search" type="text" value=""placeholder="Tìm kiếm theo tên, số hồ sơ"> 
+                </div>
+                <div class="toolbar-center">
+                    <select name="" id="listDepartment">
+                        <option value="T">Tất cả phòng ban</option>
+                        <option value="1">Phòng ban 1</option>
+                        <option value="2">Phòng ban 2</option>
+                        <option value="3">Phòng ban 3</option>
+                    </select>
+                    <select name="" id="listPosition">
+                        <option value="T">Tất cả vị trí</option>
+                        <option value="1">Vị trí 1</option>
+                        <option value="2">Vị trí 2</option>
+                        <option value="3">Vị trí 3</option>
+                    </select>
+                </div>
+                <div class="toolbar-right">
+                    <button class="btn-rotate"></button>
+                </div>
+            </div>
+            <div class="employee-list">
+                    <table class="m-table">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th style="width:50px">#</th>
+                                <th style="width:100px">Mã nhân viên</th>
+                                <th>Họ và tên</th>
+                                <th>Vị trí/Chức vụ</th>
+                                <th>Bộ phận/Phòng ban</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-align-center">
+                                    <input type="checkbox">
+                                </td>
+                                <td>1</td>
+                                <td>0123455513</td>
+                                <td>Nguyễn Hương Giang</td>
+                                <td>Tổng giám đốc</td>
+                                <td>Khối sản xuất</td>
+                             <tr class="m-seclected">
+                                <td class="text-align-center">
+                                    <input type="checkbox">
+                                </td>
+                                <td>1</td>
+                                <td>0987568788</td>
+                                <td>Nguyễn Tuấn Hưng</td>
+                                <td>Tổng giám đốc</td>
+                                <td>Văn phòng sale</td>
+                            </tr>
+                            <tr>
+                                <td class="text-align-center" style="width:39px">
+                                    <input type="checkbox">
+                                </td>
+                                <td>1</td>
+                                <td>0989448699</td>
+                                <td>Nam Thành</td>
+                                <td>Tổng giám đốc</td>
+                                <td>Tổng công ty</td>
+                            </tr>
+                            <tr>
+                                <td class="text-align-center">
+                                    <input type="checkbox">
+                                </td>
+                                <td>1</td>
+                                <td>0123455513</td>
+                                <td>Nguyễn Hương Giang</td>
+                                <td>Tổng giám đốc</td>
+                                <td>Khối sản xuất</td>
+                             <tr class="m-seclected">
+                                <td class="text-align-center">
+                                    <input type="checkbox">
+                                </td>
+                                <td>1</td>
+                                <td>0987568788</td>
+                                <td>Nguyễn Tuấn Hưng</td>
+                                <td>Tổng giám đốc</td>
+                                <td>Văn phòng sale</td>
+                            </tr>
+                            <tr>
+                                <td class="text-align-center" style="width:39px">
+                                    <input type="checkbox">
+                                </td>
+                                <td>1</td>
+                                <td>0989448699</td>
+                                <td>Nam Thành</td>
+                                <td>Tổng giám đốc</td>
+                                <td>Tổng công ty</td>
+                            </tr>
+                            <tr>
+                                <td class="text-align-center">
+                                    <input type="checkbox">
+                                </td>
+                                <td>1</td>
+                                <td>0123455513</td>
+                                <td>Nguyễn Hương Giang</td>
+                                <td>Tổng giám đốc</td>
+                                <td>Khối sản xuất</td>
+                             <tr class="m-seclected">
+                                <td class="text-align-center">
+                                    <input type="checkbox">
+                                </td>
+                                <td>1</td>
+                                <td>0987568788</td>
+                                <td>Nguyễn Tuấn Hưng</td>
+                                <td>Tổng giám đốc</td>
+                                <td>Văn phòng sale</td>
+                            </tr>
+                            <tr>
+                                <td class="text-align-center" style="width:39px">
+                                    <input type="checkbox">
+                                </td>
+                                <td>1</td>
+                                <td>0989448699</td>
+                                <td>Nam Thành</td>
+                                <td>Tổng giám đốc</td>
+                                <td>Tổng công ty</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            
+            
+                    <div class="m-paging">
+                        <div class="paging-left">Hiển thị 01-20/123 lao động</div>
+                        <div class="paging-center">
+                            <button class="btn-first"></button>
+                            <button class="btn-prev"></button>
+                            <div class="btn-number">
+                                <button class="btn-number-one">1</button>
+                                <button class="btn-number-two">2</button>
+                                <button class="btn-number-three">3</button>
+                                <button class="btn-number-four">4</button>
+                            </div>
+                            <button class="btn-next"></button>
+                            <button class="btn-last"></button>
+                        </div>
+                        <div class="paging-right">
+                            <select name="" id="">
+                                <option value="10">10 lao động/trang</option>
+                                <option value="20">20 lao động/trang</option>
+                                <option value="30">30 lao động/trang</option>
+                            </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m-dialog"  id="dialogContent">
+        <div class="dialog-content">
+            <div class="dialog-header">
+                <p class="dialog-title">THÔNG TIN NHÂN VIÊN</p>
+                <div class="icon-X" id="iconX"></div>
+            </div>
+            <div class="dialog-body">
+                <div class="dialog-body-left">
+                    <div class="icon-avatar"></div>
+                    <p class="text-avatar">(Vui lòng chọn ảnh có định dạng .jpg .jpeg .png .gif)</p>
+                </div>
+                <div class="dialog-body-right">
+                    <div class="general-information">2</div>
+                    <div class="job-information">3</div>
+                </div>
+            </div>
+            <div class="dialog-end">
+                <button class="btn-cancel" id="btnCancel"> Hủy </button>
+                <button class="btn-green-save icon-save" id="btnGreenSave">Lưu
+                </div>
+        </div>
+    </div>
+
+        <!-- thư viện -->
+        <script src="/lib/jquery/jquery-3.7.1.min.js"></script>
+        <!-- file js -->
+        <script src="/js/list.js"></script>
+</body>
+</html>
